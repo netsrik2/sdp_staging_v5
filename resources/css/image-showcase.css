@@ -1,0 +1,58 @@
+
+/* ----------------------------------------------- */
+/* IMAGE SHOWCASE */
+/* ----------------------------------------------- */
+
+.c-image-showcase {
+    padding: 0;
+    margin: 0;
+}
+
+.c-image-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.c-image-showcase li {
+    display: block;
+    float: left;
+    width: 33.333%;
+}
+
+.c-image-showcase__figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff; 
+    -webkit-transition: z-index 0.8s;
+    transition: z-index 0.8s;
+
+}
+/* .c-image-showcase__figure:hover {
+    overflow: visible;
+} */
+
+.c-image-showcase__img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.8s, opacity 0.8s;
+    transition: transform 0.8s, opacity 0.8s;
+}
+
+.c-image-showcase__img:hover, .c-image-showcase__img:focus, .c-image-showcase__img:active {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+     z-index: 12;
+    
+}
+
+
+
+/* ----------------------------------------------- */
